@@ -10,7 +10,7 @@
 //функция(метод) принимает на вход координаты в виде 6 переменных double
 double DistanceAB(double aX, double aY, double aZ, double bX, double bY, double bZ)
 {
-    double result = Math.Sqrt(Math.Pow((bX-aX),2)+Math.Pow((bY-aY),2)+Math.Pow((bY-aY),2));
+    double result = Math.Sqrt(Math.Pow((bX-aX),2) + Math.Pow((bY-aY),2) + Math.Pow((bZ-aZ),2));
     return result;
 }
 
@@ -26,5 +26,5 @@ double bZ = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine($"координаты А ( {aX} ; {aY} ; {aZ} )");
 Console.WriteLine($"координаты B ( {bX} ; {bY} ; {bZ} )");
 
-double distanveAB = DistanceAB(aX,aY,aZ,bX,bY,bZ);
+double distanveAB = DistanceAB(aX, aY, aZ, bX, bY, bZ);
 Console.WriteLine($"длина от точки A до точки B = {distanveAB}");
