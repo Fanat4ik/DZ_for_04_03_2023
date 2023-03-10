@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\faleev.as\\Desktop\\Всякое\\Личное\\VS code\\DZ\\DZ_04_03_2023\\Task19\\Task19.csproj": {}
+    "C:\\Users\\AndreyNout\\Desktop\\DZ\\DZ_for_04_03_2023\\Task19\\Task19.csproj": {}
   },
   "projects": {
-    "C:\\Users\\faleev.as\\Desktop\\Всякое\\Личное\\VS code\\DZ\\DZ_04_03_2023\\Task19\\Task19.csproj": {
+    "C:\\Users\\AndreyNout\\Desktop\\DZ\\DZ_for_04_03_2023\\Task19\\Task19.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\faleev.as\\Desktop\\Всякое\\Личное\\VS code\\DZ\\DZ_04_03_2023\\Task19\\Task19.csproj",
+        "projectUniqueName": "C:\\Users\\AndreyNout\\Desktop\\DZ\\DZ_for_04_03_2023\\Task19\\Task19.csproj",
         "projectName": "Task19",
-        "projectPath": "C:\\Users\\faleev.as\\Desktop\\Всякое\\Личное\\VS code\\DZ\\DZ_04_03_2023\\Task19\\Task19.csproj",
-        "packagesPath": "C:\\Users\\faleev.as\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\faleev.as\\Desktop\\Всякое\\Личное\\VS code\\DZ\\DZ_04_03_2023\\Task19\\obj\\",
+        "projectPath": "C:\\Users\\AndreyNout\\Desktop\\DZ\\DZ_for_04_03_2023\\Task19\\Task19.csproj",
+        "packagesPath": "C:\\Users\\AndreyNout\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AndreyNout\\Desktop\\DZ\\DZ_for_04_03_2023\\Task19\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\faleev.as\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\AndreyNout\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
