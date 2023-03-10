@@ -23,11 +23,10 @@ int weightWatermelon = Convert.ToInt32(Console.ReadLine());
 if (weightWatermelon%2 != 0 || weightWatermelon < 2) 
 {
     System.Console.WriteLine("Арбуз не поделить!");
+    return;
 }
-else
-{
-    for (int i = 2; i <= weightWatermelon-2; i=i+2)
+for (int i = 2; i <= weightWatermelon-2; i=i+2)
 {
     System.Console.WriteLine($"{i} {weightWatermelon-i}");
 }
-}
+
