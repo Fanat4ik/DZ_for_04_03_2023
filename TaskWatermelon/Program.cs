@@ -20,9 +20,14 @@
 // 8,2
 Console.Write("введите массу арбуза: ");
 int weightWatermelon = Convert.ToInt32(Console.ReadLine());
-if (weightWatermelon%2 != 0) System.Console.WriteLine("Арбуз не поделить!");
-
-for (int i = 2; i <= weightWatermelon-2; i=i+2)
+if (weightWatermelon%2 != 0 || weightWatermelon < 2) 
+{
+    System.Console.WriteLine("Арбуз не поделить!");
+}
+else
+{
+    for (int i = 2; i <= weightWatermelon-2; i=i+2)
 {
     System.Console.WriteLine($"{i} {weightWatermelon-i}");
+}
 }
