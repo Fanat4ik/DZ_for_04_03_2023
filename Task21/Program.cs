@@ -3,7 +3,6 @@
 // и находит расстояние между ними в 3D пространстве.
 // A (3,6,8); B (2,1,-7), -> 15.84
 // A (7,-5, 0); B (1,-1,9) -> 11.53
-
 //Формула для нахождения кротчайшего расстояния между 2 точками в пространстве:
 // AB = √((Xb-Xa)^2+(Yb-Ya)^2+(Yb-Ya)^2)
 
@@ -13,7 +12,6 @@ double DistanceAB(double aX, double aY, double aZ, double bX, double bY, double 
     double result = Math.Sqrt(Math.Pow((bX-aX),2) + Math.Pow((bY-aY),2) + Math.Pow((bZ-aZ),2));
     return result;
 }
-
 //ввод координат из консоли
 Console.WriteLine("ввод координат точки А (последовательно Х  Y  Z): ");
 double aX = Convert.ToDouble(Console.ReadLine());
